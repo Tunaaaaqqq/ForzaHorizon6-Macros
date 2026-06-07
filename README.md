@@ -9,7 +9,7 @@ Private collection of AutoHotkey v2 game macros.
 
 ## Usage
 
-1. Install AutoHotkey v2.
+1. Install [AutoHotkey v2](https://www.autohotkey.com/v2/).
 2. Download or clone this repo.
 3. Double-click the `.ahk` script you want to run.
 4. Focus the game window.
