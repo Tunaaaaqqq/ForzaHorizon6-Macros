@@ -34,7 +34,7 @@ F6::{
         PressAndWaitFast("{Enter}")
         PressAndWaitFast("{Enter}")
         PressAndWaitFast("{Enter}")
-        PressAndWaitFast("{Enter}")
+        PressAndWait("{Enter}")
         PressAndWaitFast("{Esc}")
         PressAndWaitFast("d")
         PressAndWaitFast("{Down}")
@@ -61,6 +61,7 @@ F6::{
         PressAndWaitFast("{Esc}")
         PressAndWaitFast("{Esc}")
         PressAndWaitFast("a")
+		PressAndWaitFast("w")
     }
 }
 
