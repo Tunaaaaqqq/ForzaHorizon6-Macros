@@ -1,6 +1,6 @@
 # Forza Horizon 6 Macros
 
-AutoHotkey v2 macros for Forza Horizon 6, FH6, and Forza Horizon automation workflows. This repo includes FH6 macros for wheelspin loops, skill point loops, and repeatable keyboard input sequences.
+AutoHotkey v2 macros for Forza Horizon 6. This repo includes macros for wheelspin loops, skill point loops.
 
 ## Files
 
