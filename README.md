@@ -5,7 +5,7 @@ Private collection of AutoHotkey v2 game macros.
 ## Files
 
 - `22B WheelSpin Loop.ahk` - buying 22B on autoshow and unlocking skill mastery to super wheelspin with randomized waits.
-- `Forza Skill Point.ahk` - skill point eventlab race loop macro with randomized waits. Use this video for setup. https://www.youtube.com/watch?v=5EYKV_b1FgA&t=52s
+- `Forza Skill Point.ahk` - skill point eventlab race loop macro with randomized waits. Use [this](https://www.youtube.com/watch?v=5EYKV_b1FgA&t=52s) video for setup.
 
 ## Usage
 
