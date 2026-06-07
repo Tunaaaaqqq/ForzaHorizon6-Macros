@@ -18,4 +18,8 @@ Private collection of AutoHotkey v2 game macros.
 
 ## Notes
 
-These scripts are intended for private single-player use. Check game's rules before using macros online.
+These scripts are intended for private single-player use only.
+
+Use at your own risk. Macros may behave differently depending on game state, focus, updates, input settings, and system performance. Always test carefully before leaving a macro running.
+
+Check the game's rules before using macros online. I am not responsible for bans, lost progress, accidental purchases, or other issues caused by running these scripts.
