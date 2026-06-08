@@ -1,0 +1,27 @@
+# Forza Horizon 6 Macros
+
+AutoHotkey v2 macros for Forza Horizon 6. This repo includes macros for wheelspin loops, skill point loops.
+
+## Files
+
+- `22B WheelSpin Loop.ahk` - buying 22B on autoshow and unlocking skill mastery to super wheelspin with randomized waits. 
+Start on buy and sell tab with selector on autoshow.
+- `Forza Skill Point.ahk` - skill point eventlab race loop macro with randomized waits. Use [this](https://www.youtube.com/watch?v=5EYKV_b1FgA&t=52s) video for setup. 
+Start on race screen with selector on start race.
+
+## Usage
+
+1. Install [AutoHotkey v2](https://www.autohotkey.com/v2/).
+2. Download or clone this repo.
+3. Double-click the `.ahk` script you want to run.
+4. Focus the game window.
+5. Press `F6` to start or stop the macro.
+6. Press `F7` to stop the macro.
+
+## Notes
+
+These scripts are intended for private single-player use only.
+
+Use at your own risk. Macros may behave differently depending on game state, focus, updates, input settings, and system performance. Always test carefully before leaving a macro running.
+
+Check the game's rules before using macros online. I am not responsible for bans, lost progress, accidental purchases, or other issues caused by running these scripts.
