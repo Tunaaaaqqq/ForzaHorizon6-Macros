@@ -15,7 +15,7 @@ PressAndWait(key) {
 
 PressAndWaitFast(key) {
     Send key
-    SleepLonger(500, 1000)
+    SleepLonger(750, 500)
 }
 
 PressAndWaitSP(key) {
@@ -58,7 +58,7 @@ F6::{
         PressAndWaitFast("{Down}")
         PressAndWaitFast("{Down}")
         PressAndWaitFast("{Down}")
-        PressAndWaitFast("{Enter}")
+        PressAndWaitSP("{Enter}")
         PressAndWaitSP("{Enter}")
         PressAndWaitSP("{Right}")
         PressAndWaitSP("{Enter}")
