@@ -1,16 +1,19 @@
 ﻿#Requires AutoHotkey v2.0
 
 running := false
+maxSkillPointLoops := 100
 
 SleepLonger(baseMs, extraMs) {
     Sleep baseMs + Random(0, extraMs)
 }
 
 F6::{
-    global running
+    global running, maxSkillPointLoops
     running := !running
+    loopCount := 0
 
-    while running {
+    while running && loopCount < maxSkillPointLoops {
+        loopCount += 1
         Send "{Enter}"
         SleepLonger(5000, 3000)
 
@@ -26,6 +29,8 @@ F6::{
         Send "{Enter}"
         SleepLonger(8000, 5000)
     }
+
+    running := false
 }
 
 F7::{

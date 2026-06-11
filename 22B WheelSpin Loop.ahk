@@ -3,6 +3,7 @@
 ;Timing are sparse accounting for bad network or pc performance, could be tuned tighter for better efficency
 
 running := false
+maxWheelSpinLoops := 33
 
 SleepLonger(baseMs, extraMs) {
     Sleep baseMs + Random(0, extraMs)
@@ -29,10 +30,12 @@ PressAndWaitSPL(key) {
 }
 
 F6::{
-    global running
+    global running, maxWheelSpinLoops
     running := !running
+    loopCount := 0
 
-    while running {
+    while running && loopCount < maxWheelSpinLoops {
+        loopCount += 1
         PressAndWaitFast("{Enter}")
         PressAndWaitFast("{Backspace}")
         PressAndWaitFast("{Up}")
@@ -75,6 +78,8 @@ F6::{
         PressAndWaitFast("a")
 		PressAndWaitFast("w")
     }
+
+    running := false
 }
 
 F7::{
